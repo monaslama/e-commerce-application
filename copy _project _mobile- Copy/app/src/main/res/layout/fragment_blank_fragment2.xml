@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_x="61dp"
+        android:layout_y="31dp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="75dp"
+        tools:src="@drawable/voicerecoed" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="106dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <ListView
+        android:id="@+id/mylist_search_v"
+        android:layout_width="368dp"
+        android:layout_height="343dp"
+        android:layout_x="3dp"
+        android:layout_y="167dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="160dp" />
+</AbsoluteLayout>
